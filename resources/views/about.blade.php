@@ -6,12 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Laravel View</h1>
+    <h1>About Page</h1>
     <h1>Name : {{ $name }}</h1>
-    <h1>Name1 : {{ $name1 }}</h1>
     @foreach($man as $key => $value)
         <h1>{{$key}} : {{ $value }}</h1>
     @endforeach
-    
 </body>
 </html>
